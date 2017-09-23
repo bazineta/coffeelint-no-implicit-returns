@@ -1,3 +1,9 @@
+## 0.0.7
+
+Bug fixes:
+  - Use the new 'coffeescript' registration path, rather than the old
+    'coffee-script' version.
+
 ## 0.0.6
 
 Bug fixes:
