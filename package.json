@@ -31,9 +31,9 @@
     "url": "https://github.com/saifelse/coffeelint-no-implicit-returns"
   },
   "peerDependencies": {
-    "coffeelint": ">=1.4"
+    "coffeelint": "^2.0.0"
   },
   "devDependencies": {
-    "coffee-script": "~1.7.0"
+    "coffee-script": "^2.0.0"
   }
 }

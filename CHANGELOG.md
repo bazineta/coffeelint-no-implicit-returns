@@ -1,8 +1,7 @@
 ## 0.0.7
 
-Bug fixes:
-  - Use the new 'coffeescript' registration path, rather than the old
-    'coffee-script' version.
+Housekeeping:
+  - Handle coffeescript 2.0
 
 ## 0.0.6
 

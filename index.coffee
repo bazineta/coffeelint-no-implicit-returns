@@ -19,10 +19,8 @@ module.exports = class NoImplicitReturns
       return
 
     # Ignore empty functions.
-    expressions = code.body.expressions
-    lastExpr = code.body.lastNonComment expressions
-    if not lastExpr?
-      return
+    return unless (expressions = code.body.expressions).length
+    lastExpr = expressions[expressions.length - 1]
 
     # An expression is a pure statement if it jumps(), i.e. contains:
     # return, continue (not in loop), or break (not in a loop or block)
